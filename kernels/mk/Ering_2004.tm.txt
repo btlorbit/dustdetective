@@ -1,0 +1,26 @@
+P 	File name                   	Contents
+        --------------------------  	-----------------------------
+        naif0008.tls                	Generic LSK 				√
+      	cas00172.tsc                	Cassini SCLK				√
+        981005_PLTEPH-DE405S.bsp    	Solar System Ephemeris			√
+	050105RB_SCPSE_04247_04336.bsp	Cassini Spacecraft SPK			√
+        cas_v41.tf	                Cassini FK				√
+	saturnj2000.tf			Saturn J2000 FK				√
+	04296_04301ra.bc    		Cassini Spacecraft CK 10.22-10.27.04	√		04301_04306ra.bc		Cassini Spacecraft CK 10.27-11.02.04	√
+	cas_cda_20061027.bc		Cassini CDA CK 	√
+       	cpck30Oct2017.tpc          	Cassini Project PCK			√
+	04292_04320py_as_flown.bc	Cassini Spacecraft CK encompassing    	
+	05001_06001pa_gapfill_v14.bc	Cassini Spacecraft CK 01.01.05-01.01.06 
+                            
+         \begindata
+         KERNELS_TO_LOAD = (	'kernels/lsk/naif0008.tls',
+				'kernels/sclk/cas00172.tsc', 
+			     	'kernels/spk/981005_PLTEPH-DE405S.bsp',
+                             	'kernels/spk/050105RB_SCPSE_04247_04336.bsp'
+				'kernels/fk/cas_v41.tf',
+				'kernels/fk/saturnj2000.tf',
+				'kernels/ck/04296_04301ra.bc',
+				'kernels/ck/04301_04306ra.bc',
+				'kernels/ck/cas_cda_20061027.bc',
+				'kernels/pck/cpck30Oct2017.tpc', 	)
+         \begintext

@@ -1,0 +1,33 @@
+ 	File name                   	Contents
+        --------------------------  	-----------------------------
+        naif0012.tls                	Generic LSK 				√
+      	cas00172.tsc                	Cassini SCLK				√
+					Solar System Ephemeris
+	050414R_SCPSE_05034_05060.bsp	Cassini Spacecraft SPK	2005pt1		√
+	050504R_SCPSE_05060_05081.bsp	Cassini Spacecraft SPK	2005pt2		√
+	050506R_SCPSE_05081_05097.bsp	Cassini Spacecraft SPK	2005pt3		√
+	050623R_SCPSE_05132_05150.bsp	Cassini Spacecraft SPK	2005pt4		√
+	050825R_SCPSE_05186_05205.bsp	Cassini Spacecraft SPK	2005pt5		√
+        cas_v42.tf	                Cassini FK				√
+	saturnj2000.tf			Saturn J2000 FK				√
+       	cpck30Oct2017.tpc          	Cassini Project PCK			√
+	cas_cda_20170627.bc		Cassini CDA CK 				√
+	05067_05072ra.bc		Cassini Spacecraft CK 2005 d67-72 (3/08-13)   	√
+	05001_06001pa_gapfill_v14.bc	Cassini Spacecraft CK 01.01.05-01.01.06 
+
+                        
+         \begindata
+         KERNELS_TO_LOAD = (	'kernels/lsk/naif0012.tls',
+				'kernels/sclk/cas00172.tsc', 
+                             	'kernels/spk/050414R_SCPSE_05034_05060.bsp'
+                             	'kernels/spk/050504R_SCPSE_05060_05081.bsp'
+                             	'kernels/spk/050506R_SCPSE_05081_05097.bsp'
+                             	'kernels/spk/050623R_SCPSE_05132_05150.bsp'
+                              	'kernels/spk/050825R_SCPSE_05186_05205.bsp'
+				'kernels/spk/171024R_SCPSE_17146_17177.bsp'
+				'kernels/fk/cas_v42.tf',
+				'kernels/fk/saturnj2000.tf',
+				'kernels/pck/cpck30Oct2017.tpc',
+				'kernels/ck/cas_cda_20170627.bc',
+				'kernels/ck/05067_05072ra.bc' 	) 
+         \begintext

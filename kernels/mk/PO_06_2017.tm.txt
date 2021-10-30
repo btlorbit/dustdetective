@@ -1,0 +1,44 @@
+ 	File name                   	Contents
+        --------------------------  	-----------------------------
+        naif0008.tls                	Generic LSK 	2005			
+        naif0012.tls                	Generic LSK 	updated 2016		√
+      	cas00172.tsc                	Cassini SCLK				√
+					Solar System Ephemeris
+
+        cas_v41.tf	                Cassini FK v41				√
+
+        cas_v42.tf	                Cassini FK				√
+
+	saturnj2000.tf			Saturn J2000 FK				√
+       	cpck30Oct2017.tpc          	Cassini Project PCK			√
+	cas_cda_20170627.bc		Cassini CDA CK 				√
+	17157_17162ra.bc		Cassini S/C CK 2017 d157-162 (6/06-11)	√
+	17162_17167ra.bc		Cassini S/C CK 2017 d162-167		√
+	17167_17172ra.bc		Cassini S/C CK 2017 d167-172		√
+	17172_17177ra.bc		Cassini S/C CK 2017 d172-177		√
+	17177_17182ra.bc		Cassini S/C CK 2017 d177-182 (-07/01)	√	
+	180628RU_SCPSE_17146_17177.bsp	Cassini S/C SPK 2017 d146-177		√
+	180628RU_SCPSE_17177_17224.bsp	Cassini S/C SPK 2017 d177-224		√
+
+DETECTION:
+2017 JUN 10 07:59:47.498
+SCLK: 1875776852
+DOY: 161 
+BETTER CONSTRAIN V RANGE... PROB AND STEP RANGE
+KEPLERIAN ASSUMPTION .. TRACK IT
+                        
+         \begindata
+         KERNELS_TO_LOAD = (	'kernels/lsk/naif0012.tls',
+				'kernels/sclk/cas00172.tsc', 
+				'kernels/fk/cas_v42.tf',
+				'kernels/fk/saturnj2000.tf',
+				'kernels/pck/cpck30Oct2017.tpc',
+				'kernels/ck/cas_cda_20170627.bc',
+				'kernels/ck/17157_17162ra.bc',
+				'kernels/ck/17162_17167ra.bc',
+				'kernels/ck/17167_17172ra.bc',
+				'kernels/ck/17172_17177ra.bc',
+				'kernels/ck/17177_17182ra.bc',
+				'kernels/spk/180628RU_SCPSE_17146_17177.bsp',
+				'kernels/spk/180628RU_SCPSE_17177_17224.bsp' 	) 
+         \begintext
